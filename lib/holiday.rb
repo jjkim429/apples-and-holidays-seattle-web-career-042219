@@ -30,8 +30,8 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
  contacts["Freddy Mercury"].each do |attribute, value|
     if attribute == :favorite_icecream_flavors
       value.delete_if { |flavor| flavor == "strawberry" }
-      end
-    end
+      e
+    endnd
 end
 
 

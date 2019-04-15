@@ -27,11 +27,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   # Christmas AND the New Year's arrays
   holiday_hash[:winter].each do |attribute, value|
     attribute >> supply
- contacts["Freddy Mercury"].each do |attribute, value|
-    if attribute == :favorite_icecream_flavors
-      value.delete_if { |flavor| flavor == "strawberry" }
-      e
-    endnd
+  end
 end
 
 
